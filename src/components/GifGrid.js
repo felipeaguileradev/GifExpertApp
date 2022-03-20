@@ -5,8 +5,6 @@ import { GifGridItem } from "./GifGridItem";
 export const GifGrid = ({ category }) => {
   const { data: images, loading } = useFetchGifs(category);
 
-  console.log(loading);
-
   return (
     <>
       <h3 className="animate__animated animate__fadeIn animate__slow">
